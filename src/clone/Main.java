@@ -3,7 +3,7 @@ package clone;
 /**
  * Created by sunlei on 22/02/2018.
  */
-public class main {
+public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
         Student student=new Student();
         student.setClassNo(111);
