@@ -14,6 +14,6 @@ public class Main {
             System.out.println();
         }
 
-        Prime.primeDo(a,length);
+        Dijkstra.doDijkstra(a,length);
     }
 }
