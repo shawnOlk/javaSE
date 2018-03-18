@@ -8,9 +8,8 @@ public class main {
         System.out.println(t.hello(t));
     }
     public static void main(String[] args){
-        Family father=new Father();
-        test(father);
-        Child child=new Child();
-        test(child);
+//        Father child=new Child();
+//        child.hello();
+
     }
 }
