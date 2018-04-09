@@ -33,8 +33,8 @@ public class CyclicBarrierTest extends Thread {
         new CyclicBarrierTest(cyclicBarrier,"11111").start();
         new CyclicBarrierTest(cyclicBarrier,"22222").start();
         new CyclicBarrierTest(cyclicBarrier,"33333").start();
-        new CyclicBarrierTest(cyclicBarrier,"44444").start();
-        new CyclicBarrierTest(cyclicBarrier,"55555").start();
-        new CyclicBarrierTest(cyclicBarrier,"66666").start();
+//        new CyclicBarrierTest(cyclicBarrier,"44444").start();
+//        new CyclicBarrierTest(cyclicBarrier,"55555").start();
+//        new CyclicBarrierTest(cyclicBarrier,"66666").start();
     }
 }

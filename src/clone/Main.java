@@ -5,14 +5,20 @@ package clone;
  */
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
-        Student student=new Student();
+        Student student = new Student();
         student.setClassNo(111);
         student.setName("s1");
         student.setNo(12);
-        Student student1=(Student) student.clone();
-        student.setNo(22);
-        System.out.println(student);
-        System.out.println(student1);
-        System.out.println(student1==student);
+        Teacher t1 = new Teacher();
+        t1.setNo(1);
+        t1.setName("sl1");
+        t1.setStudent(student);
+        Teacher t2= (Teacher) t1.clone();
+        t2.getNo();
+        t2.getStudent().setName("s2");
+        while(true) {
+            System.out.println(t1.getNo() + ":" + t1.getName() + ":" + t1.getStudent());
+            System.out.println(t2.getNo() + ":" + t2.getName() + ":" + t2.getStudent());
+        }
     }
 }
